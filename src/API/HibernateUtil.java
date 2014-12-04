@@ -12,16 +12,14 @@ public class HibernateUtil
     private static SessionFactory sessionFactory = null;
 
     static {
-        try {
-            //creates the session factory from hibernate.cfg.xml
-//            sessionFactory = new org.hibernate.cfg.Configuration().configure().buildSessionFactory();
-
+        try
+        {
             // Create the SessionFactory from hibernate.cfg.xml
             sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
 
         } catch (Exception e)
         {
-//            e.printStackTrace();
+            e.printStackTrace();
             throw new ExceptionInInitializerError(e);
         }
     }
