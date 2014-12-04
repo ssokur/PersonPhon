@@ -19,7 +19,6 @@ public class Commands
     public DeleteListener   evDelete    = new DeleteListener();
     public AboutListener    evAbout     = new AboutListener();
     public FileExit         evExit      = new FileExit();
-    public LangChoise       exLang      = new LangChoise();
     public Help             exHelp      = new Help();
     // ===================================================================================
     DataModel dm = null;
@@ -36,7 +35,6 @@ public class Commands
         }
     }
 
-    // ===================================================================================
     // Listener for Button Create
     class CreateListener implements ActionListener
     {
@@ -136,13 +134,6 @@ public class Commands
     {
         public void actionPerformed(ActionEvent arg0) {
             JOptionPane.showMessageDialog(null, "Функционал Help находится в стадии реализации!!!");
-        }
-    }
-
-    class LangChoise implements ActionListener  // Listener for Button Choose lang. For Artem in future
-    {
-        public void actionPerformed(ActionEvent arg0) {
-            JOptionPane.showMessageDialog(null, "Функционал Смены языка находится в стадии реализации!!!");
         }
     }
 }
