@@ -39,7 +39,7 @@ public class PersonTableModel extends AbstractTableModel
     }
 
     @Override
-    public Object getValueAt(int rowIndex, int columnIndex)
+    public Object getValueAt(int rowIndex, int columnIndex) // Name of column
     {
         Person bean = dm.personList.get(rowIndex);
         switch (columnIndex) {

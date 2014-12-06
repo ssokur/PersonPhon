@@ -1,7 +1,7 @@
-package API;
+package API.Hibernate;
 
 public class Factory {
-    private static DAO_Hibernate DAO_Hibernate = null;
+    private static API.Hibernate.DAO_Hibernate DAO_Hibernate = null;
     private static Factory instance = null;
 
     public static synchronized Factory getInstance() {

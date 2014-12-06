@@ -1,12 +1,15 @@
 package API;
 
+import API.Hibernate.DAO_Hibernate;
+
 import java.net.UnknownHostException;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.ArrayList;
 
-public class DAL_Person {
-    CRUD_Function pd = null;
+public class DAL_Person
+{
+    CRUD_Function pd = null; // init interface
 
     public DAL_Person() throws ParseException, UnknownHostException {
 

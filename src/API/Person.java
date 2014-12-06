@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Person
 {
     @Id        //	 обозначает поле id
-//    @GeneratedValue(generator="increment")	// GeneratedValue и @GenericGenerator — указывает на то, как будет генерироваться id
+//  @GeneratedValue(generator="increment")	// GeneratedValue и @GenericGenerator — указывает на то, как будет генерироваться id
 //	@GenericGenerator(name="increment", strategy = "increment") // (у нас — по возрастанию)
 
     @Column(name="Id") // @Column — обозначает имя колонки, соответствующей данному полю.
