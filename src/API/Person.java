@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 public class Person
 {
-    @Id        //	 обозначает поле id
+    @Id    //	 обозначает поле id
 //  @GeneratedValue(generator="increment")	// GeneratedValue и @GenericGenerator — указывает на то, как будет генерироваться id
 //	@GenericGenerator(name="increment", strategy = "increment") // (у нас — по возрастанию)
 
